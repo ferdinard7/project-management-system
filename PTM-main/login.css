@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  background: #16a085;
+  overflow: hidden;
+}
+
+.showcase {
+    position: relative;
+    height: 90px;
+    z-index: 2;
+}
+
+
+.showcase img {
+    width: 120px;
+    position: absolute;
+    filter: invert(1);
+    margin: 1.5rem 4.5rem;
+}
+
+.container{
+  max-width: 500px;
+  padding: 0 20px 0 20px;
+  margin: 50px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 20px -10px;
+}
+.wrapper .title{
+  height: 90px;
+  border-radius: 5px 5px 0 0;
+  color: #16a085;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper form{
+  padding: 30px 25px 30px 25px;
+}
+
+.wrapper form .row{
+  height: 45px;
+  margin: 0 auto;
+  position: relative; 
+}
+.wrapper form .row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+}
+
+.wrapper form .row-1{
+    height: 45px;
+    margin: 40px 0 30px 0;
+    position: relative; 
+  }
+  .wrapper form .row-1 input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    font-size: 16px;
+  }
+
+form .row input::placeholder{
+  color: #91ebd9;
+  
+}
+
+form .row-1 input::placeholder{
+    color: #91ebd9;
+    
+}
+
+.wrapper form .remember-password {
+    display: flex;
+}
+
+
+.remember label {
+    margin: 0 2px;
+}
+
+label {
+    color: #051937;
+}
+
+.wrapper form .pass{
+  margin: 0 0 0 7.5rem;
+}
+.wrapper form .pass a{
+  color: #16a085;
+  font-size: 17px;
+  text-decoration: none;
+}
+.wrapper form .pass a:hover{
+  text-decoration: underline;
+}
+.wrapper form .button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #16a085;
+  border: 1px solid #16a085;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+form .button input:hover{
+  background: #12876f;
+  font-size: 1.5rem;
+}
+
+.wrapper form .signup-link{
+    color: #051937;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 17px;
+}
+.wrapper form .signup-link a{
+  color: #16a085;
+  text-decoration: none;
+}
+form .signup-link a:hover{
+  text-decoration: underline;
+}
+
+
+  /* extra small phones (480px - 320px) */
+
+  /* Extra small devices phones ( 600px - 480px) */
+
+  /* Small devices portrait tablets and large phones, (600px - 768px) */
+ 
+  /* Medium devices landscape tablets, (768px - 992px) */
+
+  /* Large devices laptops/desktops, (992px and 1200px) */
+   
+  
+  /* Extra large devices large laptops and desktops, (1200px and up) */
+  
+
+
+
+
+/* 
+@media screen and (max-width:1268px) and (min-width:1024px) {
+    .ptm-login {
+        margin: 9rem 25rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1024px) and (min-width:768px) {
+    .ptm-login {
+        margin: 9rem 18rem;
+    }
+    
+}
+
+@media screen and (max-width:768px) and (min-width:601px) {
+    .ptm-login {
+        margin: 7rem 11rem;
+        padding: 0 1.3rem ;
+    }
+
+    
+    .log-in {
+        font-size: 0.9rem;
+    }
+    
+}
+
+@media screen and (max-width:480px) and (min-width:320px) {
+    
+   
+    .ptm-login {
+        margin: 8rem 1.6rem;
+        height: 30rem;
+        padding: 0 1.5rem;
+    }
+
+    input {
+        height: 3rem;
+        width: 23rem;
+        font-size: 0.8rem;
+        text-align: start;
+        padding: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .log-in {
+        font-size: 0.9rem;
+    }
+
+    .btn-1 p {
+        font-size: 1.1rem;
+    }
+
+    .btn-1:hover {
+        background-color: #a100ffff;
+    }
+
+    .ptm a {
+        color: #fff;
+        font-size: 1rem;
+    }
+
+    .ptm p {
+        color: #fff;
+        font-size: 1rem;
+    }
+
+
+}
+
+@media only screen (max-width:320px) {
+    
+}  */
+
+
+
